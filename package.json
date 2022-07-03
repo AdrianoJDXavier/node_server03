@@ -1,0 +1,22 @@
+{
+  "name": "node_server03",
+  "version": "1.0.0",
+  "description": "Repositório criado em cumprimento da atividade 03 da disciplina de BACK END em node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianoJDXavier/node_server03.git"
+  },
+  "author": "Adriano Xavier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianoJDXavier/node_server03/issues"
+  },
+  "homepage": "https://github.com/AdrianoJDXavier/node_server03#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
