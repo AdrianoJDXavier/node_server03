@@ -1,0 +1,179 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+.login {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.div-login {
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  width: 20%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: #4caf50;
+}
+
+.btn-submit:hover {
+  background-color: #45a049;
+}
+
+.btn-reset {
+  background-color: #dc143c;
+}
+
+.btn-reset:hover {
+  background-color: #b22222;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  padding: 0%;
+  vertical-align: inherit;
+  cursor: pointer;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+.link-menu:link,
+.link-menu:visited {
+  background-color: white;
+  color: black;
+  width: 100%;
+  border: 2px solid green;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: -18px;
+  margin-bottom: 5px;
+}
+
+.link-menu:hover,
+.link-menu:active {
+  background-color: green;
+  color: white;
+}
+footer {
+  background-color: #afce9a;
+}
+
+header {
+  height: 100px;
+  vertical-align: middle;
+}
+
+footer {
+  height: 25px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  min-height: calc(100vh - 100px);
+}
+
+nav {
+  background-color: #afce9a;
+  flex-grow: 2;
+  width: 15%;
+}
+
+aside {
+  background-color: DeepPink;
+  flex-grow: 1;
+}
+
+article {
+  flex-grow: 6;
+  height: auto;
+  width: 85%;
+}
+
+h1 {
+  margin: 40px;
+  color: gray;
+}
+
+.gradient {
+  background: linear-gradient(149deg, #81d098, #96e8d3, #afce9a);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 25s ease infinite;
+  -moz-animation: AnimationName 25s ease infinite;
+  -o-animation: AnimationName 25s ease infinite;
+  animation: AnimationName 25s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 7%;
+  }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 7%;
+  }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 7%;
+  }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 7%;
+  }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
